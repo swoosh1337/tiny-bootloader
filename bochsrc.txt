@@ -1,0 +1,8 @@
+megs: 32
+romimage: file=/opt/homebrew/Cellar/bochs/2.7/share/bochs/BIOS-bochs-latest, address=0xfffe0000
+vgaromimage: file=/opt
+floppya: 1_44=boot.com, status=inserted
+boot: a
+log: bochsout.txt
+mouse: enabled=0
+display_library: term, options="gui_debug"
